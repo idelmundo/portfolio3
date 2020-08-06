@@ -3,18 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "servery.js",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.1.0",
-    "init": "^0.1.2",
-    "inquirer": "^7.3.3",
-    "middleware": "^1.0.0",
-    "mysql2": "^2.1.0",
-    "sequelize": "^6.3.4",
-    "util": "^0.12.3"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/idelmundo/portfolio3/issues"
   },
-  "homepage": "https://github.com/idelmundo/portfolio3#readme"
+  "homepage": "https://github.com/idelmundo/portfolio3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mongoose": "^5.9.27",
+    "morgan": "^1.10.0"
+  }
 }
