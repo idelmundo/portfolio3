@@ -11,19 +11,22 @@
 </head>
 
 <body>
-    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <h1> Isaias Del Mundo</h1>
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-
-        <div class="column is-mobile">
-            <div id="navbar" class="navbar-menu">
+    <nav class="navbar is-primary">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item is-primary">
+                    Isaias Del Mundo
+                </a>
+                <span class="navbar-burger burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+                </span>
+            </div>
+            <div id="navMenu" class="navbar-menu">
                 <div class="navbar-end">
+                    <a class="navbar-item" href="/">Home </a>
+
                     <a class="navbar-item" href="/about">About Me </a>
 
                     <a class="navbar-item" href="/portfolio">Portfolio</a>
@@ -33,65 +36,112 @@
             </div>
         </div>
     </nav>
-
-    <div class="tile is-parent">
+    <!-- <div class="tile is-parent">
         <article class="tile is-child notification is-info">
             <figure class="image is-square">
                 <img src="img/rx7.png">
             </figure>
         </article>
     </div>
-
-    <div class="tile is-parent">
-        <article class="tile is-child notification is-danger">
-            <p class="title">hangryFixed</p>
-            <p class="subtitle">As A picky and indecisive eater I want to search restaurants near me That fullfills some search criteria such as price, location and offering take-out. As a gathering of big group of people I want an application that will randomly choose a
-                restaurant So that we don't waste time figuring out where to eat.</p>
-            <figure>
-                <img src="./img/hangry.png " alt=" " class="hangry ">
-            </figure>
-        </article>
+ -->
+ 
+ <section class="section">
+    <div class="container">
+      <h1 class="title">Projects</h1>
+      <h2 class="subtitle">
+        These are the few project I've achieved
+      </h2>
     </div>
-    <div class="tile is-parent">
-        <article class="tile is-child notification is-danger">
-            <p class="title">Happy Paw</p>
-            <p class="subtitle"> Socializing your pets is extremely important. If you’ve ever owned a pet you know that it’s needed in the development of a pets personality and allows them to grow and be used to interacting with other animals. We wanted to create an environment
-                where users can meet other users with like interests and pets.</p>
-            <a href="https://github.com/idelmundo/project-2 " target="_blank " class="waves-effect waves-light btn-small black-text sendBtn "><i class="fab fa-github "></i>
+  </section>
+  
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-success">
+                <p class="title has-text-centered">hangryFixed</p>
+                <p class="subtitle has-text-centered">As a picky and indecisive eater I want to search restaurants near me That fullfills some search criteria such as price, location and offering take-out. As a gathering of big group of people I want an application that will randomly choose a
+                    restaurant So that we don't waste time figuring out where to eat.</p>
+                <figure class="image is-4by3">
+                    <img src="./img/hangry.png">
+                    </figure>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-success">
+                <p class="title has-text-centered">Happy Paw</p>
+                <p class="subtitle has-text-centered">Socializing your pets is extremely important. If you’ve ever owned a pet you know that it’s needed in the development of a pets personality and allows them to grow and be used to interacting with other animals. We wanted to create an environment
+                    where users can meet other users with like interests and pets.</p>
+                <a href="https://github.com/idelmundo/project-2 " target="_blank " class="waves-effect waves-light btn-small black-text sendBtn "><i class="fab fa-github "></i>
                     Github Repo</a>
-            <a href="https://happypaw.herokuapp.com/login " target="_blank " class="waves-effect waves-light btn-small black-text sendBtn "><i
-                        class="material-icons left ">Heroku</i> Deployed Site</a>
-            <figure>
-                <img src="./img/husky.png " alt=" " class="dog ">
-            </figure>
-        </article>
-    </div>
-    <div class="tile is-parent">
-        <article class="tile is-child notification is-danger">
-            <p class="title">Employee</p>
-            <p class="subtitle"> Application for the onwer to oversee how much his/her are getting paid, edit title, update employee.</p>
-            <a href="https://github.com/idelmundo/employeeTracker " target="_blank " class="waves-effect waves-light btn-small black-text sendBtn "><i class="fab fa-github "></i>
-                Github Repo</a>
-            <figure>
-                <img src="./img/employee.png " alt=" " class="employee ">
-            </figure>
-        </article>
-    </div>
-    <div class="tile is-parent">
-        <article class="tile is-child notification is-danger">
-            <p class="title">Note Taker</p>
-            <p class="subtitle"> Application that allows users to save, write, and delete notes to keep track of tasks or items. Created with JavaScript, Node Js, and an Express backend handling API routes to retrieve data
-            </p>
+                <a href="https://happypaw.herokuapp.com/login " target="_blank " class="waves-effect waves-light btn-small black-text sendBtn "><i
+                class="material-icons left "></i> Deployed Site</a>
+                <figure class="image is-4by3">
+                  <img src="img/husky.png">
+                </figure>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-success">
+            <p class="title has-text-centered">noteTaker</p>
+            <p class="subtitle has-text-centered">Application that allows users to save, write, and delete notes to keep track of tasks or items. Created with JavaScript, Node Js, and an Express backend handling API routes to retrieve data</p>
             <a href="https://github.com/idelmundo/noteTaker " target="_blank " class="waves-effect waves-light btn-small black-text sendBtn "><i class="fab fa-github "></i>
                 Github Repo</a>
             <a href=" https://stormy-brushlands-00470.herokuapp.com/ " target="_blank " class="waves-effect waves-light btn-small black-text sendBtn "><i
-                    class="material-icons left ">desktop_mac</i> Deployed Site</a>
-            <figure>
-                <img src="./img/note.png" alt=" " class="note">
+                    class="material-icons left "></i> Deployed Site</a>
+            <figure class="image is-4by3">
+              <img src="img/note.png">
             </figure>
-        </article>
-    </div>
-    </div>
+          </article>
+        </div>
+      </div> 
+
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-success">
+                <p class="title has-text-centered">employeeTracker</p>
+                <p class="subtitle has-text-centered">Application for the onwer to oversee how much his/her are getting paid, edit title, update employee.</p>
+                <a href="https://github.com/idelmundo/employeeTracker " target="_blank " class="waves-effect waves-light btn-small black-text sendBtn "><i class="fab fa-github "></i>
+                    Github Repo</a>
+                <figure class="image is-4by3">
+                    <img src="./img//employee.png">
+                    </figure>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-success">
+                <p class="title has-text-centered">userDirectory</p>
+                <p class="subtitle has-text-centered">In this project we had to make a user directory for employee who wants to look for there co-workers information</p>
+                <a href=" https://github.com/idelmundo/userdirectory" target="_blank " class="waves-effect waves-light btn-small black-text sendBtn "><i class="fab fa-github "></i>
+                    Github Repo</a>
+                <a href="https://idelmundo.github.io/userdirectory/" target="_blank " class="waves-effect waves-light btn-small black-text sendBtn "><i
+                class="material-icons left "></i> Deployed Site</a>
+                <figure class="image is-4by3">
+                  <img src="img/empdir.png">
+                </figure>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-success">
+            <p class="title has-text-centered">fitnessTracker</p>
+            <p class="subtitle has-text-centered">As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled. </p>
+            <a href=" https://github.com/idelmundo/fitness " target="_blank " class="waves-effect waves-light btn-small black-text sendBtn "><i class="fab fa-github "></i>
+                Github Repo</a>
+            <a href="https://shrouded-thicket-16171.herokuapp.com/stats" target="_blank " class="waves-effect waves-light btn-small black-text sendBtn "><i
+            class="material-icons left "></i> Deployed Site</a>
+            <figure class="image is-4by3">
+              <img src="img/fitness.png">
+            </figure>
+          </article>
+        </div>
+      </div> 
+         
 
     <div class="tile is-child box notification is-primary ">
         <p class="title ">Skills</p>
